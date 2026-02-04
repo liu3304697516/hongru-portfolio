@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio | Hongru Liu</title>
+  <style>
+    body{font-family:Arial,sans-serif;margin:0;line-height:1.65}
+    header{padding:22px;border-bottom:1px solid #ddd}
+    nav a{margin-right:14px;text-decoration:none}
+    nav a:hover{text-decoration:underline}
+    main{max-width:980px;margin:0 auto;padding:22px}
+
+    .muted{color:#666}
+    .small{font-size:13px}
+
+    .tag{
+      display:inline-block;
+      border:1px solid #ccc;
+      padding:2px 10px;
+      border-radius:999px;
+      margin:6px 8px 0 0;
+      font-size:12px;
+      background:#f7f7f7;
+    }
+    .tag.purple{
+      background:#eadcff;
+      border-color:#d4c2ff;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+      gap:14px;
+      margin-top:12px;
+    }
+    .card{
+      border:1px solid #ddd;
+      padding:16px;
+      border-radius:12px;
+      background:#fff;
+    }
+
+    .btn{
+      display:inline-block;
+      border:1px solid #222;
+      padding:8px 12px;
+      border-radius:10px;
+      text-decoration:none;
+      margin-right:10px;
+    }
+    .btn:hover{opacity:0.9}
+
+    footer{padding:22px;color:#666}
+    hr{border:none;border-top:1px solid #eee;margin:24px 0}
+  </style>
+</head>
+
+<body>
+<header>
+  <h1>Hongru Liu</h1>
+  <p class="muted">Mechanical Engineering | Additive Manufacturing • Prototyping • Modeling &amp; Control • Thermal-Fluid Systems</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="resume.pdf">Resume</a>
+    <a href="justification_memo.pdf">Justification Memo</a>
+  </nav>
+
+</header>
+
+<main>
+  <!-- LOOKING FOR -->
+  <section id="looking">
+    <h2>Looking for</h2>
+    <div>
+      <span class="tag purple">Full-time job</span>
+      <span class="tag purple">Mechanical Engineer</span>
+      <span class="tag purple">Automotive</span>
+      <span class="tag purple">Robotics</span>
+      <span class="tag purple">Manufacturing</span>
+      <span class="tag purple">Energy</span>
+      <span class="tag purple">New York, NY</span>
+    </div>
+  </section>
+
+  <hr/>
+
+  <!-- SUMMARY -->
+  <section id="summary">
+    <h2>Summary</h2>
+    <p>
+      MS Mechanical Engineering candidate at Carnegie Mellon with extensive project and research experience in CAD design,
+      MATLAB/Simulink modeling, and thermal-fluid systems. Passionate about applying engineering skills to solve real-world
+      challenges in robotics, manufacturing, and energy.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" style="margin-top:22px;">
+    <h2>Skills</h2>
+    <div>
+      <span class="tag">Lathe Operations</span>
+      <span class="tag">Finite Elements Analysis</span>
+      <span class="tag">Simulink</span>
+      <span class="tag">3D Modeling</span>
+      <span class="tag">3D Printing</span>
+      <span class="tag">Control Theory</span>
+      <span class="tag">Mechanical Engineering</span>
+      <span class="tag">MATLAB</span>
+      <span class="tag">CAD/CAM</span>
+    </div>
+  </section>
+
+  <!-- LANGUAGES -->
+  <section id="languages" style="margin-top:22px;">
+    <h2>Languages</h2>
+    <p><strong>Professional working proficiency:</strong> English</p>
+    <p><strong>Native or bilingual proficiency:</strong> Mandarin Chinese</p>
+  </section>
+
+  <hr/>
+
+  <!-- WORK EXPERIENCE -->
+  <section id="work">
+    <h2>Work Experience</h2>
+
+    <div class="card">
+      <h3>Undergraduate Researcher — Semih Akin <span class="muted small">(On-campus)</span></h3>
+      <p class="muted">September 2024 – May 2025</p>
+      <p>
+        Conducted research on lunar soil–resin composites for additive manufacturing. Used different 3D printers and explored their potential.
+        Printed ASTM-standard tensile bars to test strength, explored particle size effects and exposure times, and assessed structural integrity and
+        flexibility. Provided recommendations for improving resin printer applications in construction and space manufacturing.
+      </p>
+    </div>
+
+    <div class="card" style="margin-top:12px;">
+      <h3>Undergraduate Researcher — Semih Akin <span class="muted small">(On-campus)</span></h3>
+      <p class="muted">August 2024 – September 2024</p>
+      <p>
+        Designed and refined an aerosol jet printer to study ionic liquid ejection and electrification. Tested nozzle performance and set up experiments
+        to form metallic structures capable of electrical conductivity. Advanced understanding of precision additive manufacturing processes for future
+        electronic and material applications.
+      </p>
+    </div>
+
+    <div class="card" style="margin-top:12px;">
+      <h3>Researcher Assistant — Shanbin Shi <span class="muted small">(On-campus)</span></h3>
+      <p class="muted">January 2024 – May 2024</p>
+      <p>
+        Supported development of a thermal power dispatch system for nuclear flexible plant operation. Utilized MATLAB/Simulink for modeling and
+        simulation, analyzed thermal-hydraulic studies, and validated models. Collaborated with graduate researchers to improve accuracy and align
+        simulations with plant operation needs.
+      </p>
+    </div>
+  </section>
+
+  <hr/>
+
+  <!-- FEATURED PROJECTS -->
+  <section id="featured">
+    <h2>Featured Projects</h2>
+    <p class="muted">These project pages match your resume “Projects” section.</p>
+
+    <div class="grid">
+      <article class="card">
+        <h3><a href="project1.html">Active Flutter Control System for UAS Wing</a></h3>
+        <p class="muted">Aug 2023 – Dec 2023</p>
+        <p>Built wing dynamics models, designed PID controllers with sensor feedback, and validated stability using MATLAB/Simulink.</p>
+      </article>
+
+      <article class="card">
+        <h3><a href="project4.html">Design the Heat Sink for Heat Transfer</a></h3>
+        <p class="muted">May 2023 – Aug 2023</p>
+        <p>Designed and optimized a heat sink to regulate heater temperature; created NX prototypes and iterated for improved thermal management.</p>
+      </article>
+
+      <article class="card">
+        <h3><a href="project3.html">Individual Wheel Rotation System</a></h3>
+        <p class="muted">May 2023 – Aug 2023</p>
+        <p>Designed CAD models, built and tested 3D-printed prototypes, and integrated motors and controls for improved maneuverability.</p>
+      </article>
+
+      <article class="card">
+        <h3><a href="project2.html">Hazardous Algae Removal System</a></h3>
+        <p class="muted">May 2023 – Aug 2023</p>
+        <p>Designed a solar-powered system to circulate cooler water from 13–15m depths; optimized flow, prototyped via 3D printing, and validated risk.</p>
+      </article>
+    </div>
+
+    <p style="margin-top:16px;">
+      <a class="btn" href="projects.html">View All Projects</a>
+      <a class="btn" href="resume.pdf">Open Resume</a>
+    </p>
+  </section>
+
+  <hr/>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:liu3304697516@gmail.com">liu3304697516@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/hongru-liu-2a389b381" target="_blank" rel="noopener noreferrer">
+      www.linkedin.com/in/hongru-liu-2a389b381
+    </a></p>
+  </section>
+
+</main>
+
+<footer>
+  <small>© Hongru Liu — Portfolio</small>
+</footer>
+</body>
+</html>
